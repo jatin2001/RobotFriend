@@ -7,7 +7,7 @@ function CardList(props){
             return(
                 <div className='tc'>
                     {
-                        props.roboarray.map(user=>(
+                        props.roboarray.(user=>(
                         <Card key={user.id} name={user.name} email={user.email} id={user.id} />
                         ))
                     }
